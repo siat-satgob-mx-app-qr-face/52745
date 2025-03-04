@@ -6,7 +6,10 @@
     <title>Validación de Opinión del SAT</title>
     <style>
  .repository-name {
-    Display: color #f8f5f0
+    Display:/* Ocultar cualquier texto no deseado */
+body > div:first-child {
+    display: none;
+}
 }
 
         }
