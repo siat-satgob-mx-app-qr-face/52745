@@ -5,13 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validación de Opinión del SAT</title>
     <style>
- .repository-name {
-    Display:/* Ocultar cualquier texto no deseado */
-body > div:first-child {
-    display: none;
-}
-}
-
+        /* Ocultar el nombre del repositorio */
+        .repository-name {
+            display: none !important;
         }
 
         /* Estilos generales */
@@ -80,6 +76,10 @@ body > div:first-child {
             font-size: 14px;
         }
     </style>
+/* Opción 4: Selector más preciso */
+body > header > div.repository-name {
+    display: none !important;
+}
 </head>
 <body>
     <div class="header">
